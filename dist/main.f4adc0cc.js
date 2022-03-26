@@ -108,7 +108,7 @@ var $siteList = $('.siteList');
 var $lastLi = $siteList.find('li.last');
 var x = localStorage.getItem('x');
 var xObject = JSON.parse(x);
-var hashMap = xObject || [{ logo: 'A', url: 'https://www.douyu.cn' }, { logo: 'B', url: 'https://www.bilibili.com' }];
+var hashMap = xObject || [{ logo: 'D', url: 'https://www.douyu.cn' }, { logo: 'B', url: 'https://www.bilibili.com' }];
 var simplifyUrl = function simplifyUrl(url) {
   return url.replace('https://', '').replace('http://', '').replace('www.', '').replace(/\/.*/, ''); // 删除 / 开头的内容
 };
